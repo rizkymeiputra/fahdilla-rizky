@@ -61,7 +61,7 @@ function App() {
         <Syukuran />
         <hr />
         <Akad />
-        <Gift />
+        {!window.location.href.includes("syukuran") && <Gift />}
         <Gallery />
         <Footer />
       </main>
