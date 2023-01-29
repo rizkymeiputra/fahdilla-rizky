@@ -28,7 +28,7 @@ function App() {
       <section
         className={`${
           splash ? "left-0" : "left-[-110%]"
-        } w-[100vw] h-[100vh] fixed z-10 transition-all duration-700 bg-fixed bg-cover bg-center bg-no-repeat`}
+        } w-[100vw] h-[100vh] fixed z-10 transition-all duration-700 bg-fixed bg-cover bg-center bg-no-repeat bg-[#ede1d3]`}
         style={{ backgroundImage: `url('${cover}')` }}
       >
         <section className="relative h-[100vh]">
