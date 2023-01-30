@@ -65,7 +65,7 @@ export default function Gift() {
       {modal && (
         <div className="fixed top-0 left-0 z-40 w-[100vw] h-[100vh] bg-black/50 overflow-hidden">
           <div className="p-6 w-full h-full flex items-center justify-center">
-            <div className="bg-white p-6 w-full rounded-xl text-center relative">
+            <div className="bg-white p-6 w-full md:w-1/2 lg:w-1/3 mx-auto rounded-xl text-center relative">
               <button
                 onClick={() => setModal(null)}
                 className="absolute right-4 top-4"
@@ -109,7 +109,7 @@ export default function Gift() {
                   <span className="block mb-4">
                     Dana - Fahdilla
                     <br />
-                    08216640195
+                    082216640195
                   </span>
                   <span className="block">
                     BCA - a.n. Rizky Meiputra
