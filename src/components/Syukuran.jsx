@@ -54,7 +54,7 @@ export default function Syukuran() {
             </span>
           </div>
           <p className="block mb-6">
-            Perum Pesona Prima Pataruman Blok B1 No. 5, RT 01 RW 12, Desa
+            Perum Pesona Prima Pataruman 2, Blok B1 No. 5, RT 01 RW 12, Desa
             Pataruman, Kec. Cihampelas, Kab. Bandung Barat, Jawa Barat 40562
           </p>
           <iframe
